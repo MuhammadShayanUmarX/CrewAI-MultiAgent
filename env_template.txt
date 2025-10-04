@@ -1,0 +1,23 @@
+# Copy this file to backend/.env and fill in your API keys
+
+# OpenAI API Configuration (REQUIRED)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# LinkedIn API Configuration (Coming Soon - for automatic posting)
+LINKEDIN_CLIENT_ID=your_linkedin_client_id_here
+LINKEDIN_CLIENT_SECRET=your_linkedin_client_secret_here
+LINKEDIN_ACCESS_TOKEN=your_linkedin_access_token_here
+
+# Google API (Optional - for enhanced SEO)
+GOOGLE_API_KEY=your_google_api_key_here
+
+# Database Configuration (for future use)
+DATABASE_URL=sqlite:///./linkedin_content.db
+
+# Security
+SECRET_KEY=your_secret_key_here
+ALGORITHM=HS256
+
+# Environment
+ENVIRONMENT=development
+DEBUG=True
